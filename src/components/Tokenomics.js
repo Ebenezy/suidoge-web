@@ -9,7 +9,7 @@ import marketing from '../images/icons/marketing.svg'
 
 const Tokenomics = () => {
     return (
-        <div id='tokenomics' className='sections bg-black'>
+        <div id='tokenomics' className='sections gradient-bg'>
             <Container>
                 <div className='text-center mb-5'>
                     <h4 className='text-white'>Tokenomics</h4>

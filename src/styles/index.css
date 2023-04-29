@@ -61,7 +61,7 @@ a:focus {
 }
 
 .hero-section {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/hero-bg.webp) center center no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/bg.jpg) center center no-repeat;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -234,6 +234,65 @@ a:focus {
   color: #666;
   max-width: 800px;
   text-align: center;
+}
+
+/* gradient-bg */
+.gradient-bg {
+  /* background-image: linear-gradient(138deg, #150D25 0%, #E036FF 100%); */
+  background-position: bottom center;
+  background: linear-gradient(-45deg,
+      #150D25,
+      #666666,
+      #150D25,
+      #000000,
+      #666666,
+      #464183);
+  background-size: 200% 200%;
+  -webkit-animation: Gradient 5s ease infinite;
+  -moz-animation: Gradient 5s ease infinite;
+  animation: Gradient 5s ease infinite;
+}
+
+@-webkit-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@-moz-keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 footer {

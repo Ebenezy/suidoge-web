@@ -19,7 +19,7 @@ const Hero = () => {
                                 <div className="hero-left" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                                     <div className="">
                                         <div className="mb-3">
-                                            <h1 className="hero-title">World's Best Community</h1>
+                                            <h1 className="hero-title">SuiDoge Ecosystem</h1>
                                         </div>
                                         <Row>
                                             <Col md={9}>
