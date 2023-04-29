@@ -209,7 +209,6 @@ a:focus {
   width: 100px;
   border: 2px solid #FE7901;
   border-radius: 50%;
-  /* background: #000000; */
   padding: 1rem;
   margin: auto;
   display: flex;
@@ -220,9 +219,8 @@ a:focus {
 .sections-card-img2 {
   height: 80px;
   width: 80px;
-  border: 2px solid #FED900;
+  border: 2px solid #FFFFFF;
   border-radius: 50%;
-  /* background: #000000; */
   padding: 1rem;
   margin: auto;
   display: flex;
@@ -245,7 +243,7 @@ a:focus {
 .sections h2 {
   font-weight: 700;
   font-size: 35px;
-  color: #FED900;
+  color: #FE7901;
   padding-top: 0.5rem;
 }
 
