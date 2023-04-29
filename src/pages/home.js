@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import SwapNft from '../components/SwapNft'
 import About from '../components/About'
 import Tokenomics from '../components/Tokenomics'
+import Roadmap from '../components/Roadmap'
 
 const Home = () => {
     return (
@@ -12,6 +13,7 @@ const Home = () => {
             <SwapNft />
             <About />
             <Tokenomics />
+            <Roadmap />
             <Footer />
         </div>
     )

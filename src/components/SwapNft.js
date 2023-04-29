@@ -10,7 +10,7 @@ const SwapNft = () => {
                     <div className='left-container swap-contents text-center'>
                         <img src={suidoge} alt='logo' className='mt-5 mb-2' width={100} />
                         <h2>SuiDoge Swap</h2>
-                        <p>SuiDoge Swap still trending</p>
+                        <p>SuiDoge Swap - coming soon</p>
                         <div className='pt-3 d-flex justify-content-center w-100'>
                             <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse">
                                 Swap SuiDoge
@@ -22,10 +22,10 @@ const SwapNft = () => {
                     <div className='right-container swap-contents text-center'>
                         <img src={suidoge} alt='logo' className='mt-5 mb-2' width={100} />
                         <h2>SuiDoge NFT</h2>
-                        <p>SuiDoge NFT Staking still trending</p>
+                        <p>SuiDoge NFT Staking and Minting</p>
                         <div className='pt-3 d-flex justify-content-center w-100'>
                             <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse">
-                                Stake NFT
+                                Mint NFT
                             </a>
                         </div>
                     </div>

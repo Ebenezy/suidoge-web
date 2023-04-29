@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import suidoge from '../images/suidoge.svg'
 import telegram from '../images/icons/telegram.svg'
 import twitter from '../images/icons/twitter.svg'
-import discord from '../images/icons/discord.svg'
+// import discord from '../images/icons/discord.svg'
 // import certik from '../images/certik.svg'
 
 const Hero = () => {
@@ -54,31 +54,31 @@ const Hero = () => {
                     </div>
                     <h3>Join Our Community</h3>
                     <div className="d-flex justify-content-center mt-4 mb-1">
-                        <a href="http://t.me/suidoge" target="_blank" rel="noreferrer">
+                        <a href="https://t.me/sui_doge" target="_blank" rel="noreferrer">
                             <div className="circle" style={{ width: '55px', height: '55px' }}>
                                 <img src={telegram} alt="suidoge telegram" width={45} />
                             </div>
                         </a>
-                        <a href="http://twitter.com/suidoge" target="_blank" rel="noreferrer">
+                        <a href="https://twitter.com/Sui__Doge?t=CokaXRBM20AcNuzmw-5aMg&s=09" target="_blank" rel="noreferrer">
                             <div className="circle" style={{ width: '55px', height: '55px' }}>
                                 <img src={twitter} alt="suidoge twitter" width={45} />
                             </div>
                         </a>
-                        <a href="http://discord.com/suidoge" target="_blank" rel="noreferrer">
+                        {/* <a href="http://discord.com/suidoge" target="_blank" rel="noreferrer">
                             <div className="circle" style={{ width: '55px', height: '55px' }}>
                                 <img src={discord} alt="suidoge discord" width={45} />
                             </div>
-                        </a>
+                        </a> */}
                     </div>
                     {/* <img src={certik} alt='certik' width={190} className='my-2' /> */}
-                    <div className='pt-4 d-flex justify-content-center btns-mobile-center w-100'>
+                    {/* <div className='pt-4 d-flex justify-content-center btns-mobile-center w-100'>
                         <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse me-2">
                             Buy SuiDoge
                         </a>
                         <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse ms-2">
                             View Chart
                         </a>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </>

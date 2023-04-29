@@ -60,8 +60,20 @@
     .right-container {
         padding: 0 0 3rem;
     }
+
+    .sections h2 {
+        font-size: 27px;
+    }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 996px) {}
+@media only screen and (min-width: 768px) and (max-width: 996px) {
+    .sections h2 {
+        font-size: 30px;
+    }
+}
 
-@media only screen and (min-width: 1024px) and (max-width: 1200px) {}
+@media only screen and (min-width: 1024px) and (max-width: 1200px) {
+    .sections h2 {
+        font-size: 30px;
+    }
+}
