@@ -5,7 +5,7 @@ import suidoge from '../images/suidoge.svg'
 import telegram from '../images/icons/telegram.svg'
 import twitter from '../images/icons/twitter.svg'
 import discord from '../images/icons/discord.svg'
-import certik from '../images/certik.svg'
+// import certik from '../images/certik.svg'
 
 const Hero = () => {
     return (
@@ -25,7 +25,7 @@ const Hero = () => {
                                             <Col md={9}>
                                                 <p className="hero-text">SuiDoge is a  project that leverages the advantages of a meme coin to create a unique and engaging ecosystem for decentralized finance (DeFi) and non-fungible tokens (NFTs).</p>
                                                 <div className='pt-3 d-flex btns-mobile-center'>
-                                                    <a href='https://andromedaswap.org/swap' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse me-3">
+                                                    <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse me-3">
                                                         Buy SuiDoge
                                                     </a>
                                                 </div>
@@ -70,12 +70,12 @@ const Hero = () => {
                             </div>
                         </a>
                     </div>
-                    <img src={certik} alt='certik' width={190} className='my-3' />
-                    <div className='pt-3 d-flex justify-content-center btns-mobile-center w-100'>
-                        <a href='https://andromedaswap.org/swap' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse me-2">
+                    {/* <img src={certik} alt='certik' width={190} className='my-2' /> */}
+                    <div className='pt-4 d-flex justify-content-center btns-mobile-center w-100'>
+                        <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse me-2">
                             Buy SuiDoge
                         </a>
-                        <a href='https://andromedaswap.org/swap' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse ms-2">
+                        <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse ms-2">
                             View Chart
                         </a>
                     </div>

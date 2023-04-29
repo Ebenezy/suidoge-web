@@ -12,7 +12,7 @@ const SwapNft = () => {
                         <h2>SuiDoge Swap</h2>
                         <p>SuiDoge Swap still trending</p>
                         <div className='pt-3 d-flex justify-content-center w-100'>
-                            <a href='https://andromedaswap.org/swap' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse">
+                            <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse">
                                 Swap SuiDoge
                             </a>
                         </div>
@@ -24,7 +24,7 @@ const SwapNft = () => {
                         <h2>SuiDoge NFT</h2>
                         <p>SuiDoge NFT Staking still trending</p>
                         <div className='pt-3 d-flex justify-content-center w-100'>
-                            <a href='https://andromedaswap.org/swap' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse">
+                            <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse">
                                 Stake NFT
                             </a>
                         </div>

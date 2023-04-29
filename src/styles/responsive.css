@@ -49,18 +49,16 @@
 
     .hero-below-inner {
         width: 96%;
+        height: 100%;
+        padding: 30px 30px;
     }
 
     .crypto_address {
         font-size: 11px;
     }
 
-    .swap-contents .left-container {
-        padding-top: 85px;
-    }
-
-    .swap-contents .right-container {
-        padding: 40px 0;
+    .right-container {
+        padding: 0 0 3rem;
     }
 }
 

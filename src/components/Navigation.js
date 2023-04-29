@@ -19,7 +19,7 @@ const Navigation = () => {
                             <Nav.Link href="#tokenomics">Tokenomics</Nav.Link>
                             <Nav.Link href="#how-to-buy">How to Buy</Nav.Link>
                             <Nav.Link href="#roadmap">Roadmap</Nav.Link>
-                            <Nav.Link href='#contact'>Contact</Nav.Link>
+                            {/* <Nav.Link href='#contact'>Contact</Nav.Link> */}
                             <Button className='launchapp-btn hvr-back-pulse' as={Link} to='/'>Buy SuiDoge</Button>
                         </Nav>
                     </Navbar.Collapse>
