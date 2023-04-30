@@ -49,8 +49,8 @@ const Hero = () => {
             <div className='d-flex justify-content-center hero-below mb-3'>
                 <div className='hero-below-inner text-center'>
                     <div className='btns-mobile-center d-flex justify-content-center flex-wrap w-100 mb-3'>
-                        <div className="crypto_address px-3 mb-2 d-flex align-items-center justify-content-center">5DhKuX1xTAho9J8YQiYYQXka2VwJH5XVcvmArFttAT9uXh9m</div>
-                        <button className='buy-now-btn hvr-back-pulse ms-3 mb-2' onClick={() => navigator.clipboard.writeText('5DhKuX1xTAho9J8YQiYYQXka2VwJH5XVcvmArFttAT9uXh9m')}>Copy Address</button>
+                        <div className="crypto_address px-3 mb-2 d-flex align-items-center justify-content-center w-50">Coming soon...</div>
+                        <button className='buy-now-btn hvr-back-pulse ms-3 mb-2' onClick={() => navigator.clipboard.writeText('coming-soon...')}>Copy Address</button>
                     </div>
                     <h3>Join Our Community</h3>
                     <div className="d-flex justify-content-center mt-4 mb-1">

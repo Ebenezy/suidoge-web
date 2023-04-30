@@ -4,7 +4,7 @@ import suidoge from '../images/suidoge.svg'
 
 const SwapNft = () => {
     return (
-        <div>
+        <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <Row className='g-0'>
                 <Col md={6}>
                     <div className='left-container swap-contents text-center'>

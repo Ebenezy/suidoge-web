@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './pages/home.js';
 import AOS from "aos";
 import "aos/dist/aos.css";
+// import 'sweetalert2/src/sweetalert2.scss'
 
 function App() {
   useEffect(() => {

@@ -20,7 +20,7 @@ const Navigation = () => {
                             {/* <Nav.Link href="#how-to-buy">How to Buy</Nav.Link> */}
                             <Nav.Link href="#roadmap">Roadmap</Nav.Link>
                             {/* <Nav.Link href='#contact'>Contact</Nav.Link> */}
-                            <Button className='launchapp-btn hvr-back-pulse' as={Link} to='/'>Buy SuiDoge</Button>
+                            <Button className='launchapp-btn hvr-back-pulse' as={Link} to='/'>Launch App</Button>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>

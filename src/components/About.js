@@ -8,7 +8,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 
 const About = () => {
     return (
-        <div id='about' className='sections'>
+        <div id='about' className='sections' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <Container>
                 <div className='text-center mb-5'>
                     <h4>About SuiDoge</h4>
@@ -16,7 +16,7 @@ const About = () => {
                 </div>
                 <Row>
                     <Col md={4} className='mb-4'>
-                        <div className='text-center sections-card'>
+                        <div className='text-center sections-card' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img'>
                                 <img src={art} alt='suidoge' height={55} />
                             </div>
@@ -25,7 +25,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col md={4} className='mb-4'>
-                        <div className='text-center sections-card'>
+                        <div className='text-center sections-card' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img'>
                                 <img src={profile} alt='suidoge' height={55} />
                             </div>
@@ -34,7 +34,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col md={4} className='mb-4'>
-                        <div className='text-center sections-card'>
+                        <div className='text-center sections-card' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img'>
                                 <img src={reward} alt='suidoge' height={55} />
                             </div>
@@ -43,7 +43,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col md={4} className='mb-4'>
-                        <div className='text-center  sections-card'>
+                        <div className='text-center  sections-card' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img'>
                                 <img src={voting} alt='suidoge' height={55} />
                             </div>
@@ -52,7 +52,7 @@ const About = () => {
                         </div>
                     </Col>
                     <Col md={4} className='mb-4'>
-                        <div className='text-center sections-card'>
+                        <div className='text-center sections-card' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img'>
                                 <img src={growth} alt='suidoge' height={55} />
                             </div>

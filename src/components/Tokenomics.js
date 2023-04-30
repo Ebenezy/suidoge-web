@@ -10,7 +10,7 @@ import marketing from '../images/icons/marketing.svg'
 
 const Tokenomics = () => {
     return (
-        <div id='tokenomics' className='sections gradient-bg'>
+        <div id='tokenomics' className='sections gradient-bg' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <Container>
                 <div className='text-center mb-5'>
                     <h4 className='text-white'>Tokenomics</h4>
@@ -18,7 +18,7 @@ const Tokenomics = () => {
                 </div>
                 <Row>
                     <Col md={3} className='mb-5'>
-                        <div className='text-center'>
+                        <div className='text-center' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img2'>
                                 <img src={supply} alt='suidoge' height={40} />
                             </div>
@@ -27,7 +27,7 @@ const Tokenomics = () => {
                         </div>
                     </Col>
                     <Col md={3} className='mb-5'>
-                        <div className='text-center'>
+                        <div className='text-center' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img2'>
                                 <img src={liquidity} alt='suidoge' height={40} />
                             </div>
@@ -36,7 +36,7 @@ const Tokenomics = () => {
                         </div>
                     </Col>
                     <Col md={3} className='mb-5'>
-                        <div className='text-center'>
+                        <div className='text-center' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img2'>
                                 <img src={privateSale} alt='suidoge' height={40} />
                             </div>
@@ -45,7 +45,7 @@ const Tokenomics = () => {
                         </div>
                     </Col>
                     <Col md={3} className='mb-5'>
-                        <div className='text-center'>
+                        <div className='text-center' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img2'>
                                 <img src={staking} alt='suidoge' height={40} />
                             </div>
@@ -54,7 +54,7 @@ const Tokenomics = () => {
                         </div>
                     </Col>
                     <Col md={3} className='mb-5'>
-                        <div className='text-center'>
+                        <div className='text-center' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img2'>
                                 <img src={nft} alt='suidoge' height={40} />
                             </div>
@@ -63,7 +63,7 @@ const Tokenomics = () => {
                         </div>
                     </Col>
                     <Col md={3} className='mb-5'>
-                        <div className='text-center'>
+                        <div className='text-center' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img2'>
                                 <img src={team} alt='suidoge' height={40} />
                             </div>
@@ -72,7 +72,7 @@ const Tokenomics = () => {
                         </div>
                     </Col>
                     <Col md={3} className='mb-5'>
-                        <div className='text-center'>
+                        <div className='text-center' data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
                             <div className='sections-card-img2'>
                                 <img src={marketing} alt='suidoge' height={40} />
                             </div>

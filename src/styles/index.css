@@ -129,6 +129,7 @@ a:focus {
 
 .hero-below {
   position: absolute;
+  z-index: 2;
   top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -219,7 +220,7 @@ a:focus {
 .sections-card-img2 {
   height: 80px;
   width: 80px;
-  border: 2px solid #FFFFFF;
+  border: 1px solid #FFFFFF;
   border-radius: 50%;
   padding: 1rem;
   margin: auto;
