@@ -37,7 +37,7 @@ const Hero = () => {
                             </Col>
                             <Col md={5} id='second'>
                                 <div className="landing-hero-img" data-aos="zoom-in" data-aos-duration="1000" data-aos-once="true">
-                                    <img src={suidoge} alt='logo' className='w-100' />
+                                    <img src={suidoge} alt='logo' className='w-100 floating' />
                                 </div>
                             </Col>
                         </Row>
