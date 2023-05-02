@@ -18,7 +18,7 @@ const Roadmap = () => {
                             <p><span><img src={checked} width={20} alt='suidoge' /></span> Series of Test</p>
                             <p><span><img src={checked} width={20} alt='suidoge' /></span> Creation of social media</p>
                             <p><span><img src={checked} width={20} alt='suidoge' /></span> Website Launch</p>
-                            <p><span><img src={check} width={20} alt='suidoge' /></span> Private Sale</p>
+                            <p><span><img src={checked} width={20} alt='suidoge' /></span> Private Sale</p>
                             <p><span><img src={check} width={20} alt='suidoge' /></span> Token launch</p>
                             <p><span><img src={check} width={20} alt='suidoge' /></span> Lock Liquidity</p>
                         </div>

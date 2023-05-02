@@ -9,7 +9,7 @@ import {
 const Navigation = () => {
     return (
         <div className='w-100 bg-white'>
-            <Navbar expand="lg" variant="light" className='pt-2 bg-white fixed-top'>
+            <Navbar expand="lg" variant="light" className='pt-2 bg-white fixed-top border-bottom'>
                 <Container>
                     <Navbar.Brand as={Link} to="/"><img src={logo} alt="alephshib logo" className='logo' /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
