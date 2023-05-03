@@ -5,6 +5,7 @@ import SwapNft from '../components/SwapNft'
 import About from '../components/About'
 import Tokenomics from '../components/Tokenomics'
 import Roadmap from '../components/Roadmap'
+import Whitepaper from '../components/Whitepaper'
 
 const Home = () => {
     return (
@@ -14,6 +15,7 @@ const Home = () => {
             <About />
             <Tokenomics />
             <Roadmap />
+            <Whitepaper />
             <Footer />
         </div>
     )

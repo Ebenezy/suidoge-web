@@ -17,7 +17,7 @@ const Navigation = () => {
                         <Nav className="ms-auto my-2 my-lg-0">
                             <Nav.Link href="#about">About</Nav.Link>
                             <Nav.Link href="#tokenomics">Tokenomics</Nav.Link>
-                            {/* <Nav.Link href="#how-to-buy">How to Buy</Nav.Link> */}
+                            <Nav.Link href="#whitepaper">Whitepaper</Nav.Link>
                             <Nav.Link href="#roadmap">Roadmap</Nav.Link>
                             {/* <Nav.Link href='#contact'>Contact</Nav.Link> */}
                             <Button className='launchapp-btn hvr-back-pulse' as={Link} to='/'>Launch App</Button>

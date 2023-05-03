@@ -9,6 +9,7 @@ import team from '../images/icons/team.svg'
 import marketing from '../images/icons/marketing.svg'
 
 const Tokenomics = () => {
+
     return (
         <div id='tokenomics' className='sections gradient-bg' data-aos="fade-up" data-aos-duration="1000" data-aos-once="true">
             <Container>

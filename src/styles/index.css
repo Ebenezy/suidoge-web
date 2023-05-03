@@ -346,6 +346,11 @@ a:focus {
   }
 }
 
+.whitepaper {
+  margin: auto;
+  background: #150D25;
+}
+
 footer {
   background: #000000;
   font-size: 12px;
@@ -384,7 +389,7 @@ footer {
 .mail {
   text-decoration: none;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   color: #150D25;
   letter-spacing: 0;
 }
