@@ -12,7 +12,7 @@ const SwapNft = () => {
                         <h2>SuiDoge Swap</h2>
                         <p>SuiDoge Swap - coming soon</p>
                         <div className='pt-3 d-flex justify-content-center w-100'>
-                            <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse">
+                            <a href='https://flameswap.io/#/swap' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse">
                                 Swap SuiDoge
                             </a>
                         </div>

@@ -50,11 +50,12 @@
     .hero-below-inner {
         width: 96%;
         height: 100%;
-        padding: 30px 30px;
+        padding: 30px 15px;
     }
 
     .crypto_address {
-        font-size: 11px;
+        width: 100%;
+        font-size: 7px;
     }
 
     .right-container {

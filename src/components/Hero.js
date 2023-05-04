@@ -25,8 +25,11 @@ const Hero = () => {
                                             <Col md={9}>
                                                 <p className="hero-text">SuiDoge is a  project that leverages the advantages of a meme coin to create a unique and engaging ecosystem for decentralized finance (DeFi) and non-fungible tokens (NFTs).</p>
                                                 <div className='pt-3 d-flex btns-mobile-center'>
-                                                    <a href='/' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse me-3">
+                                                    <a href='https://flameswap.io/#/swap' target='_blank' rel="noreferrer" className="buy-now-btn hvr-back-pulse me-3">
                                                         Buy SuiDoge
+                                                    </a>
+                                                    <a href='#chart' className="buy-now-btn hvr-back-pulse ">
+                                                        View Chart
                                                     </a>
                                                 </div>
                                             </Col>
@@ -49,8 +52,8 @@ const Hero = () => {
             <div className='d-flex justify-content-center hero-below mb-3'>
                 <div className='hero-below-inner text-center'>
                     <div className='btns-mobile-center d-flex justify-content-center flex-wrap w-100 mb-3'>
-                        <div className="crypto_address px-3 mb-2 d-flex align-items-center justify-content-center w-50">Coming soon...</div>
-                        <button className='buy-now-btn hvr-back-pulse ms-3 mb-2' onClick={() => navigator.clipboard.writeText('coming-soon...')}>Copy Address</button>
+                        <div className="crypto_address px-3 mb-2 d-flex align-items-center justify-content-center">0x83e6571118eaca12d7d428ae06341a8063711bc9983e0d6cefb3790a26b9d62c::SDOGE::SDOGE</div>
+                        <button className='buy-now-btn hvr-back-pulse ms-3 mb-2' onClick={() => navigator.clipboard.writeText('0x83e6571118eaca12d7d428ae06341a8063711bc9983e0d6cefb3790a26b9d62c::SDOGE::SDOGE')}>Copy Address</button>
                     </div>
                     <h3>Join Our Community</h3>
                     <div className="d-flex justify-content-center mt-4 mb-1">
