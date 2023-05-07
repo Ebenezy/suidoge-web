@@ -18,7 +18,7 @@ const Navigation = () => {
                             <Nav.Link href="#about">About</Nav.Link>
                             <Nav.Link href="#tokenomics">Tokenomics</Nav.Link>
                             <Nav.Link href="#roadmap">Roadmap</Nav.Link>
-                            <Nav.Link href="#howtobuy">How to Buy</Nav.Link>
+                            {/* <Nav.Link href="#howtobuy">How to Buy</Nav.Link> */}
                             <Nav.Link href='#chart'>Chart</Nav.Link>
                             {/* <Nav.Link href="#whitepaper">Whitepaper</Nav.Link> */}
                             <Button className='launchapp-btn hvr-back-pulse' as={Link} to='https://flameswap.io/#/swap'>Launch App</Button>

@@ -5,7 +5,7 @@ const Chart = () => {
     return (
         <div id='chart' className='sections w-100'>
             <Container>
-                <div className='text-center mb-5'>
+                <div className='text-center mb-4'>
                     <h4>SuiDoge Live Chart</h4>
                 </div>
                 <div id="dexscreener-embed">

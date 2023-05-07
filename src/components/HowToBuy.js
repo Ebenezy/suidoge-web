@@ -7,7 +7,7 @@ const HowToBuy = () => {
         <div id='howtobuy' className='sections whitepaper w-100'>
             <Container>
                 <div className='text-center'>
-                    <h4 className='section-title'>How to Buy SuiDoge</h4>
+                    <h4 className='pb-3'>How to Buy SuiDoge</h4>
                     <YoutubeEmbed embedId="Zed6AjP6iDo" />
                 </div>
             </Container>
